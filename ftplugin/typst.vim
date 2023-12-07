@@ -30,11 +30,6 @@ compiler typst
 " " If you're on typst <v0.8, workaround for https://github.com/typst/typst/issues/1937
 " set errorformat^=\/%f:%l:%c:%m
 
-setlocal expandtab
-setlocal tabstop=8
-setlocal softtabstop=2
-setlocal shiftwidth=2
-
 if g:typst_conceal
     setlocal conceallevel=2
 endif
